@@ -94,8 +94,8 @@
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(37, 22);
-            this.bindingNavigatorCountItem.Text = "de {0}";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
             // bindingNavigatorDeleteItem
@@ -183,7 +183,7 @@
             this.bttExitUpValue.Location = new System.Drawing.Point(501, 296);
             this.bttExitUpValue.Name = "bttExitUpValue";
             this.bttExitUpValue.Size = new System.Drawing.Size(75, 23);
-            this.bttExitUpValue.TabIndex = 2;
+            this.bttExitUpValue.TabIndex = 1;
             this.bttExitUpValue.Text = "Fechar";
             this.bttExitUpValue.UseVisualStyleBackColor = true;
             this.bttExitUpValue.Click += new System.EventHandler(this.bttExitUpValue_Click);
@@ -193,7 +193,7 @@
             this.bttAnaUpValue.Location = new System.Drawing.Point(368, 296);
             this.bttAnaUpValue.Name = "bttAnaUpValue";
             this.bttAnaUpValue.Size = new System.Drawing.Size(127, 23);
-            this.bttAnaUpValue.TabIndex = 3;
+            this.bttAnaUpValue.TabIndex = 0;
             this.bttAnaUpValue.Text = "Analisar Finança";
             this.bttAnaUpValue.UseVisualStyleBackColor = true;
             this.bttAnaUpValue.Click += new System.EventHandler(this.bttAnaUpValue_Click);
@@ -214,7 +214,7 @@
             this.linkLblAddValue.Location = new System.Drawing.Point(509, 37);
             this.linkLblAddValue.Name = "linkLblAddValue";
             this.linkLblAddValue.Size = new System.Drawing.Size(45, 13);
-            this.linkLblAddValue.TabIndex = 5;
+            this.linkLblAddValue.TabIndex = 2;
             this.linkLblAddValue.TabStop = true;
             this.linkLblAddValue.Text = "AJUDA.";
             this.linkLblAddValue.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblAddValue_LinkClicked);

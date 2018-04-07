@@ -56,14 +56,14 @@
             this.txtBoxAddValue.Location = new System.Drawing.Point(74, 133);
             this.txtBoxAddValue.Name = "txtBoxAddValue";
             this.txtBoxAddValue.Size = new System.Drawing.Size(161, 20);
-            this.txtBoxAddValue.TabIndex = 5;
+            this.txtBoxAddValue.TabIndex = 3;
             // 
             // bttAddAddCost
             // 
             this.bttAddAddCost.Location = new System.Drawing.Point(218, 189);
             this.bttAddAddCost.Name = "bttAddAddCost";
             this.bttAddAddCost.Size = new System.Drawing.Size(140, 23);
-            this.bttAddAddCost.TabIndex = 6;
+            this.bttAddAddCost.TabIndex = 4;
             this.bttAddAddCost.Text = "Adicionar";
             this.bttAddAddCost.UseVisualStyleBackColor = true;
             this.bttAddAddCost.Click += new System.EventHandler(this.bttAddAddCost_Click);
@@ -73,7 +73,7 @@
             this.bttCancelAddCost.Location = new System.Drawing.Point(364, 189);
             this.bttCancelAddCost.Name = "bttCancelAddCost";
             this.bttCancelAddCost.Size = new System.Drawing.Size(75, 23);
-            this.bttCancelAddCost.TabIndex = 7;
+            this.bttCancelAddCost.TabIndex = 5;
             this.bttCancelAddCost.Text = "Cancelar";
             this.bttCancelAddCost.UseVisualStyleBackColor = true;
             this.bttCancelAddCost.Click += new System.EventHandler(this.bttCancelAddCost_Click);
@@ -84,7 +84,7 @@
             this.radioButtonRenda.Location = new System.Drawing.Point(74, 79);
             this.radioButtonRenda.Name = "radioButtonRenda";
             this.radioButtonRenda.Size = new System.Drawing.Size(57, 17);
-            this.radioButtonRenda.TabIndex = 8;
+            this.radioButtonRenda.TabIndex = 0;
             this.radioButtonRenda.TabStop = true;
             this.radioButtonRenda.Text = "Renda";
             this.radioButtonRenda.UseVisualStyleBackColor = true;
@@ -95,7 +95,7 @@
             this.radioButtonGasto.Location = new System.Drawing.Point(166, 79);
             this.radioButtonGasto.Name = "radioButtonGasto";
             this.radioButtonGasto.Size = new System.Drawing.Size(53, 17);
-            this.radioButtonGasto.TabIndex = 9;
+            this.radioButtonGasto.TabIndex = 1;
             this.radioButtonGasto.TabStop = true;
             this.radioButtonGasto.Text = "Gasto";
             this.radioButtonGasto.UseVisualStyleBackColor = true;
@@ -105,7 +105,7 @@
             this.txtBoxAddDescription.Location = new System.Drawing.Point(74, 107);
             this.txtBoxAddDescription.Name = "txtBoxAddDescription";
             this.txtBoxAddDescription.Size = new System.Drawing.Size(284, 20);
-            this.txtBoxAddDescription.TabIndex = 10;
+            this.txtBoxAddDescription.TabIndex = 2;
             // 
             // lblDescription
             // 
@@ -140,7 +140,7 @@
             this.linkLblAddCost.Location = new System.Drawing.Point(332, 38);
             this.linkLblAddCost.Name = "linkLblAddCost";
             this.linkLblAddCost.Size = new System.Drawing.Size(45, 13);
-            this.linkLblAddCost.TabIndex = 14;
+            this.linkLblAddCost.TabIndex = 6;
             this.linkLblAddCost.TabStop = true;
             this.linkLblAddCost.Text = "AJUDA.";
             this.linkLblAddCost.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblAddCost_LinkClicked);

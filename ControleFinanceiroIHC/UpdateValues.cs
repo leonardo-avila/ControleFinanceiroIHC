@@ -67,7 +67,7 @@ namespace ControleFinanceiroIHC
         {
             this.bs.DataSource = bList;
             this.dataGridView1.DataSource = bs;
-            this.Close();
+            this.Hide();
         }
 
         private void bttAnaUpValue_Click(object sender, EventArgs e)

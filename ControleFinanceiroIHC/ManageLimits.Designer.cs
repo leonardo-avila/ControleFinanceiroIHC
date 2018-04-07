@@ -45,7 +45,7 @@
             this.checkBoxCost.Location = new System.Drawing.Point(66, 39);
             this.checkBoxCost.Name = "checkBoxCost";
             this.checkBoxCost.Size = new System.Drawing.Size(136, 17);
-            this.checkBoxCost.TabIndex = 7;
+            this.checkBoxCost.TabIndex = 0;
             this.checkBoxCost.Text = "Limite de Gasto Mensal";
             this.checkBoxCost.UseVisualStyleBackColor = true;
             this.checkBoxCost.CheckedChanged += new System.EventHandler(this.checkBoxCost_CheckedChanged);
@@ -56,7 +56,7 @@
             this.checkBoxProfit.Location = new System.Drawing.Point(66, 99);
             this.checkBoxProfit.Name = "checkBoxProfit";
             this.checkBoxProfit.Size = new System.Drawing.Size(158, 17);
-            this.checkBoxProfit.TabIndex = 8;
+            this.checkBoxProfit.TabIndex = 2;
             this.checkBoxProfit.Text = "Limite de Poupança Mínima";
             this.checkBoxProfit.UseVisualStyleBackColor = true;
             this.checkBoxProfit.CheckedChanged += new System.EventHandler(this.checkBoxProfit_CheckedChanged);
@@ -67,7 +67,7 @@
             this.txtBoxCost.Location = new System.Drawing.Point(91, 62);
             this.txtBoxCost.Name = "txtBoxCost";
             this.txtBoxCost.Size = new System.Drawing.Size(111, 20);
-            this.txtBoxCost.TabIndex = 9;
+            this.txtBoxCost.TabIndex = 1;
             // 
             // txtBoxProfit
             // 
@@ -75,7 +75,7 @@
             this.txtBoxProfit.Location = new System.Drawing.Point(91, 122);
             this.txtBoxProfit.Name = "txtBoxProfit";
             this.txtBoxProfit.Size = new System.Drawing.Size(111, 20);
-            this.txtBoxProfit.TabIndex = 10;
+            this.txtBoxProfit.TabIndex = 3;
             // 
             // label1
             // 
@@ -100,7 +100,7 @@
             this.bttApply.Location = new System.Drawing.Point(78, 181);
             this.bttApply.Name = "bttApply";
             this.bttApply.Size = new System.Drawing.Size(103, 23);
-            this.bttApply.TabIndex = 13;
+            this.bttApply.TabIndex = 4;
             this.bttApply.Text = "Aplicar";
             this.bttApply.UseVisualStyleBackColor = true;
             this.bttApply.Click += new System.EventHandler(this.bttApply_Click);
@@ -110,7 +110,7 @@
             this.bttCancel.Location = new System.Drawing.Point(187, 181);
             this.bttCancel.Name = "bttCancel";
             this.bttCancel.Size = new System.Drawing.Size(75, 23);
-            this.bttCancel.TabIndex = 14;
+            this.bttCancel.TabIndex = 5;
             this.bttCancel.Text = "Cancelar";
             this.bttCancel.UseVisualStyleBackColor = true;
             this.bttCancel.Click += new System.EventHandler(this.bttCancel_Click);
