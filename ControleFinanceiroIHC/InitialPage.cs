@@ -15,13 +15,13 @@ namespace ControleFinanceiroIHC
     public partial class InitialPage : Form
     {
         List<Financa> list = new List<Financa>();
-        ManageLimits manageWindow;
+        SetControls manageWindow;
 
         public InitialPage()
         {
             InitializeComponent();
             list.Add(new Renda("Exemplo", 0));
-            manageWindow = new ManageLimits();
+            manageWindow = new SetControls();
         }
 
         private void alterarLimitesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -35,23 +35,15 @@ namespace ControleFinanceiroIHC
             addCostWindow.Show();
         }
 
-        private void alterarValoresToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            double maxCost = manageWindow.MaxCost;
-            double minProfit = manageWindow.MinProfit;
-            UpdateValues upValues = new UpdateValues(this.list, ref maxCost, ref minProfit);
-            upValues.Show();
-        }
-
         private void exibirAjudaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            HelpWindow2 helwindow = new HelpWindow2();
+            HelpWindow helwindow = new HelpWindow();
             helwindow.Show();
         }
 
         private void ajudaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            HelpWindow2 helpWindow = new HelpWindow2();
+            HelpWindow helpWindow = new HelpWindow();
             helpWindow.Show();
         }
 
@@ -77,9 +69,17 @@ namespace ControleFinanceiroIHC
             
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void importarCSVToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void gerenciarFinançasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            double maxCost = manageWindow.MaxCost;
+            double minProfit = manageWindow.MinProfit;
+            ManageFinances upValues = new ManageFinances(this.list, ref maxCost, ref minProfit);
+            upValues.Show();
         }
     }
 }

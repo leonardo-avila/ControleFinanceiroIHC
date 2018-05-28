@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace ControleFinanceiroIHC
 {
-    public partial class UpdateValues : Form
+    public partial class ManageFinances : Form
     {
 
         BindingList<Financa> bList;
@@ -19,7 +19,7 @@ namespace ControleFinanceiroIHC
         double maxCost;
         double minProfit;
 
-        public UpdateValues(List<Financa> list, ref double maxCost, ref double minProfit)
+        public ManageFinances(List<Financa> list, ref double maxCost, ref double minProfit)
         {
             InitializeComponent();
             bList = new BindingList<Financa>(list);
@@ -58,9 +58,11 @@ namespace ControleFinanceiroIHC
             this.Controls.Add(dataGridView1);
             dataGridView1.Columns[0].HeaderText = "Tipo de Finança";
             dataGridView1.Columns[1].HeaderText = "Descrição";
-            dataGridView1.Columns[2].HeaderText = "Valor (R$)";
+            dataGridView1.Columns[2].HeaderText = "Valor";
             dataGridView1.Columns[2].DefaultCellStyle.Format = "c";
-            
+            dataGridView1.Columns[2].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+
+
         }
 
         private void bttExitUpValue_Click(object sender, EventArgs e)
@@ -152,7 +154,7 @@ namespace ControleFinanceiroIHC
 
         private void linkLblAddValue_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            HelpWindow2 help = new HelpWindow2();
+            HelpWindow help = new HelpWindow();
             help.Show();
         }
     }

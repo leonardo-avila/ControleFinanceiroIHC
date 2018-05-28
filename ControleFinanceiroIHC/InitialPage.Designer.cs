@@ -33,8 +33,6 @@
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exportarCSVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.atualizarCustosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.alterarValoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.alterarLimitesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblInitialPage1 = new System.Windows.Forms.Label();
@@ -44,6 +42,8 @@
             this.lblInitialPage5 = new System.Windows.Forms.Label();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.importarCSVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gerenciarFinançasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -63,7 +63,8 @@
             // arquivoToolStripMenuItem
             // 
             this.arquivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.exportarCSVToolStripMenuItem});
+            this.exportarCSVToolStripMenuItem,
+            this.importarCSVToolStripMenuItem});
             this.arquivoToolStripMenuItem.Image = global::ControleFinanceiroIHC.Properties.Resources.save_disk_icon_icons_com_71576;
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
             this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
@@ -79,32 +80,17 @@
             // editarToolStripMenuItem
             // 
             this.editarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.atualizarCustosToolStripMenuItem,
-            this.alterarLimitesToolStripMenuItem});
+            this.alterarLimitesToolStripMenuItem,
+            this.gerenciarFinançasToolStripMenuItem});
             this.editarToolStripMenuItem.Image = global::ControleFinanceiroIHC.Properties.Resources.pencil_striped_symbol_for_interface_edit_buttons_icon_icons_com_56782;
             this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
-            this.editarToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.editarToolStripMenuItem.Text = "Editar";
-            // 
-            // atualizarCustosToolStripMenuItem
-            // 
-            this.atualizarCustosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.alterarValoresToolStripMenuItem});
-            this.atualizarCustosToolStripMenuItem.Name = "atualizarCustosToolStripMenuItem";
-            this.atualizarCustosToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
-            this.atualizarCustosToolStripMenuItem.Text = "Finanças";
-            // 
-            // alterarValoresToolStripMenuItem
-            // 
-            this.alterarValoresToolStripMenuItem.Name = "alterarValoresToolStripMenuItem";
-            this.alterarValoresToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.alterarValoresToolStripMenuItem.Text = "Gerenciar Finanças";
-            this.alterarValoresToolStripMenuItem.Click += new System.EventHandler(this.alterarValoresToolStripMenuItem_Click);
+            this.editarToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
+            this.editarToolStripMenuItem.Text = "Finanças";
             // 
             // alterarLimitesToolStripMenuItem
             // 
             this.alterarLimitesToolStripMenuItem.Name = "alterarLimitesToolStripMenuItem";
-            this.alterarLimitesToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.alterarLimitesToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
             this.alterarLimitesToolStripMenuItem.Text = "Alterar Limites";
             this.alterarLimitesToolStripMenuItem.Click += new System.EventHandler(this.alterarLimitesToolStripMenuItem_Click);
             // 
@@ -182,7 +168,20 @@
             this.pictureBox1.Size = new System.Drawing.Size(10, 164);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // importarCSVToolStripMenuItem
+            // 
+            this.importarCSVToolStripMenuItem.Name = "importarCSVToolStripMenuItem";
+            this.importarCSVToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.importarCSVToolStripMenuItem.Text = "Importar CSV";
+            this.importarCSVToolStripMenuItem.Click += new System.EventHandler(this.importarCSVToolStripMenuItem_Click);
+            // 
+            // gerenciarFinançasToolStripMenuItem
+            // 
+            this.gerenciarFinançasToolStripMenuItem.Name = "gerenciarFinançasToolStripMenuItem";
+            this.gerenciarFinançasToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.gerenciarFinançasToolStripMenuItem.Text = "Gerenciar Finanças";
+            this.gerenciarFinançasToolStripMenuItem.Click += new System.EventHandler(this.gerenciarFinançasToolStripMenuItem_Click);
             // 
             // InitialPage
             // 
@@ -220,8 +219,6 @@
         private System.Windows.Forms.ToolStripMenuItem arquivoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exportarCSVToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem atualizarCustosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem alterarValoresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem alterarLimitesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
@@ -232,6 +229,8 @@
         private System.Windows.Forms.Label lblInitialPage5;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem importarCSVToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gerenciarFinançasToolStripMenuItem;
     }
 }
 

@@ -1,6 +1,6 @@
 ﻿namespace ControleFinanceiroIHC
 {
-    partial class UpdateValues
+    partial class ManageFinances
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UpdateValues));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageFinances));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
@@ -58,7 +58,7 @@
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 56);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 28);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(588, 221);
             this.dataGridView1.TabIndex = 0;
@@ -201,25 +201,25 @@
             // lblIMPORTANTAddValue
             // 
             this.lblIMPORTANTAddValue.AutoSize = true;
-            this.lblIMPORTANTAddValue.Location = new System.Drawing.Point(13, 37);
+            this.lblIMPORTANTAddValue.Location = new System.Drawing.Point(-3, 264);
             this.lblIMPORTANTAddValue.Name = "lblIMPORTANTAddValue";
-            this.lblIMPORTANTAddValue.Size = new System.Drawing.Size(502, 13);
+            this.lblIMPORTANTAddValue.Size = new System.Drawing.Size(413, 13);
             this.lblIMPORTANTAddValue.TabIndex = 4;
-            this.lblIMPORTANTAddValue.Text = "IMPORTANTE: Antes de iniciar, exclua esta primeira linha de exemplo. Qualquer dúv" +
-    "ida, acesse o menu ";
+            this.lblIMPORTANTAddValue.Text = " Caso a tabela não atualizar, exclua a primeira linha. Qualquer dúvida, acesse o " +
+    "menu ";
             // 
             // linkLblAddValue
             // 
             this.linkLblAddValue.AutoSize = true;
-            this.linkLblAddValue.Location = new System.Drawing.Point(509, 37);
+            this.linkLblAddValue.Location = new System.Drawing.Point(402, 264);
             this.linkLblAddValue.Name = "linkLblAddValue";
-            this.linkLblAddValue.Size = new System.Drawing.Size(45, 13);
+            this.linkLblAddValue.Size = new System.Drawing.Size(36, 13);
             this.linkLblAddValue.TabIndex = 2;
             this.linkLblAddValue.TabStop = true;
-            this.linkLblAddValue.Text = "AJUDA.";
+            this.linkLblAddValue.Text = "ajuda.";
             this.linkLblAddValue.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblAddValue_LinkClicked);
             // 
-            // UpdateValues
+            // ManageFinances
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -234,9 +234,9 @@
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "UpdateValues";
+            this.Name = "ManageFinances";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Alterar Valores";
+            this.Text = "Gerenciar Finanças";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
             this.bindingNavigator1.ResumeLayout(false);

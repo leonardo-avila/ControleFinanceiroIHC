@@ -12,8 +12,8 @@ namespace ControleFinanceiroIHC
 {
     public partial class AddCost : Form
     {
-        UpdateValues up;
-        public AddCost(UpdateValues form)
+        ManageFinances up;
+        public AddCost(ManageFinances form)
         {
             InitializeComponent();
             this.up = form;
@@ -71,7 +71,7 @@ namespace ControleFinanceiroIHC
 
         private void linkLblAddCost_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            HelpWindow2 helpWindow = new HelpWindow2();
+            HelpWindow helpWindow = new HelpWindow();
             helpWindow.Show();
         }
     }

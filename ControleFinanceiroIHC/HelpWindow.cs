@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ControleFinanceiroIHC
 {
-    public partial class HelpWindow2 : Form
+    public partial class HelpWindow : Form
     {
-        public HelpWindow2()
+        public HelpWindow()
         {
             InitializeComponent();
         }

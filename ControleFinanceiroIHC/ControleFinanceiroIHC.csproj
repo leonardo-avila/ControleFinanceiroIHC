@@ -53,11 +53,11 @@
     </Compile>
     <Compile Include="Financa.cs" />
     <Compile Include="Gasto.cs" />
-    <Compile Include="HelpWindow2.cs">
+    <Compile Include="HelpWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HelpWindow2.Designer.cs">
-      <DependentUpon>HelpWindow2.cs</DependentUpon>
+    <Compile Include="HelpWindow.Designer.cs">
+      <DependentUpon>HelpWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="InitialPage.cs">
       <SubType>Form</SubType>
@@ -65,11 +65,11 @@
     <Compile Include="InitialPage.Designer.cs">
       <DependentUpon>InitialPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManageLimits.cs">
+    <Compile Include="SetControls.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManageLimits.Designer.cs">
-      <DependentUpon>ManageLimits.cs</DependentUpon>
+    <Compile Include="SetControls.Designer.cs">
+      <DependentUpon>SetControls.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,31 +79,31 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Renda.cs" />
-    <Compile Include="UpdateValues.cs">
+    <Compile Include="ManageFinances.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateValues.Designer.cs">
-      <DependentUpon>UpdateValues.cs</DependentUpon>
+    <Compile Include="ManageFinances.Designer.cs">
+      <DependentUpon>ManageFinances.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AddCost.resx">
       <DependentUpon>AddCost.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HelpWindow2.resx">
-      <DependentUpon>HelpWindow2.cs</DependentUpon>
+    <EmbeddedResource Include="HelpWindow.resx">
+      <DependentUpon>HelpWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InitialPage.resx">
       <DependentUpon>InitialPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManageLimits.resx">
-      <DependentUpon>ManageLimits.cs</DependentUpon>
+    <EmbeddedResource Include="SetControls.resx">
+      <DependentUpon>SetControls.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateValues.resx">
-      <DependentUpon>UpdateValues.cs</DependentUpon>
+    <EmbeddedResource Include="ManageFinances.resx">
+      <DependentUpon>ManageFinances.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\DataSources\AddCost.datasource" />
     <None Include="Properties\DataSources\AddGain.datasource" />

@@ -1,6 +1,6 @@
 ﻿namespace ControleFinanceiroIHC
 {
-    partial class ManageLimits
+    partial class SetControls
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageLimits));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SetControls));
             this.checkBoxCost = new System.Windows.Forms.CheckBox();
             this.checkBoxProfit = new System.Windows.Forms.CheckBox();
             this.txtBoxCost = new System.Windows.Forms.TextBox();
@@ -42,7 +42,7 @@
             // checkBoxCost
             // 
             this.checkBoxCost.AutoSize = true;
-            this.checkBoxCost.Location = new System.Drawing.Point(66, 39);
+            this.checkBoxCost.Location = new System.Drawing.Point(46, 39);
             this.checkBoxCost.Name = "checkBoxCost";
             this.checkBoxCost.Size = new System.Drawing.Size(136, 17);
             this.checkBoxCost.TabIndex = 0;
@@ -53,7 +53,7 @@
             // checkBoxProfit
             // 
             this.checkBoxProfit.AutoSize = true;
-            this.checkBoxProfit.Location = new System.Drawing.Point(66, 99);
+            this.checkBoxProfit.Location = new System.Drawing.Point(46, 99);
             this.checkBoxProfit.Name = "checkBoxProfit";
             this.checkBoxProfit.Size = new System.Drawing.Size(158, 17);
             this.checkBoxProfit.TabIndex = 2;
@@ -64,23 +64,23 @@
             // txtBoxCost
             // 
             this.txtBoxCost.Enabled = false;
-            this.txtBoxCost.Location = new System.Drawing.Point(91, 62);
+            this.txtBoxCost.Location = new System.Drawing.Point(71, 62);
             this.txtBoxCost.Name = "txtBoxCost";
-            this.txtBoxCost.Size = new System.Drawing.Size(111, 20);
+            this.txtBoxCost.Size = new System.Drawing.Size(159, 20);
             this.txtBoxCost.TabIndex = 1;
             // 
             // txtBoxProfit
             // 
             this.txtBoxProfit.Enabled = false;
-            this.txtBoxProfit.Location = new System.Drawing.Point(91, 122);
+            this.txtBoxProfit.Location = new System.Drawing.Point(70, 122);
             this.txtBoxProfit.Name = "txtBoxProfit";
-            this.txtBoxProfit.Size = new System.Drawing.Size(111, 20);
+            this.txtBoxProfit.Size = new System.Drawing.Size(160, 20);
             this.txtBoxProfit.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(66, 65);
+            this.label1.Location = new System.Drawing.Point(43, 65);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(21, 13);
             this.label1.TabIndex = 11;
@@ -89,7 +89,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(66, 125);
+            this.label2.Location = new System.Drawing.Point(43, 125);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(21, 13);
             this.label2.TabIndex = 12;
@@ -97,7 +97,7 @@
             // 
             // bttApply
             // 
-            this.bttApply.Location = new System.Drawing.Point(78, 181);
+            this.bttApply.Location = new System.Drawing.Point(46, 181);
             this.bttApply.Name = "bttApply";
             this.bttApply.Size = new System.Drawing.Size(103, 23);
             this.bttApply.TabIndex = 4;
@@ -107,7 +107,7 @@
             // 
             // bttCancel
             // 
-            this.bttCancel.Location = new System.Drawing.Point(187, 181);
+            this.bttCancel.Location = new System.Drawing.Point(155, 181);
             this.bttCancel.Name = "bttCancel";
             this.bttCancel.Size = new System.Drawing.Size(75, 23);
             this.bttCancel.TabIndex = 5;
@@ -134,7 +134,7 @@
             this.MaximizeBox = false;
             this.Name = "ManageLimits";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Alterar Limites";
+            this.Text = "Definir Controle";
             this.ResumeLayout(false);
             this.PerformLayout();
 

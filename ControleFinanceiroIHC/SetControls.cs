@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace ControleFinanceiroIHC
 {
-    public partial class ManageLimits : Form
+    public partial class SetControls : Form
     {
         public double MinProfit{ get; set; }
         public double MaxCost { get; set; }
 
-        public ManageLimits()
+        public SetControls()
         {
             InitializeComponent();
             
