@@ -71,6 +71,30 @@ namespace ControleFinanceiroIHC
 
         private void importarCSVToolStripMenuItem_Click(object sender, EventArgs e)
         {
+           
+            openFileDialog1.Title = "Importar CSV";
+            openFileDialog1.Filter = "Arquivos CSV (*.csv)|*.csv";
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                List<string> financas = File.ReadAllLines(openFileDialog1.FileName).ToList();
+                financas.RemoveAt(0);
+                this.list.Clear();
+                foreach(string line in financas)
+                {
+                    string[] split = line.Split(';');
+                    if(split[0] == "Renda")
+                    {
+                        this.list.Add(new Renda(split[1], double.Parse(split[2])));
+                    }
+                    else if(split[0] == "Gasto")
+                    {
+                        this.list.Add(new Gasto(split[1], double.Parse(split[2])));
+                    }
+                }
+                MessageBox.Show("Arquivo importado com sucesso. Sua tabela de finanças foi atualizada.","Arquivo importado", 0, MessageBoxIcon.Asterisk);
+                              
+            }
 
         }
 

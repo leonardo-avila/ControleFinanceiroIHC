@@ -18,7 +18,7 @@ namespace ControleFinanceiroIHC
 
         public override string ToString()
         {
-            return string.Format("{0};{1};{2:C2}", this.type, this.description, this.value);
+            return string.Format("{0};{1};{2}", this.type, this.description, this.value);
         }
     }
 }
