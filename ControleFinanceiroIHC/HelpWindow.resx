@@ -121,14 +121,15 @@
     <value>Bem vindo ao seu aplicativo de controle financeiro!
 
 Por meio dele, você será capaz:
+
 1 - Anotar todos os valores recebidos e gastos;
-2 - Receber pequenas notificações alertando se seu controle está positivo ou não;
-3 - Exportar para formato .csv, para uso no Excel, caso preferir;
-4 - Definir e configurar limites, que serão o norte para as notificações citadas no segundo ponto aqui descrito;
+2 - Receber um feedback acerca do seu demonstrativo, relacionando com o controle definido anteriormente;
+3 - Exportar para formato .csv, para uso no Excel, caso preferir, bem como importar o .csv futuramente para continuar as anotações;
+4 - Definir uma porcentagem do salário que deseja economizar, que serão a base para o feedback na parte de análise de finanças;
 
 ---  Anotando seus valores recebidos e gastos ---
 
-Para anotar seus valores recebidos e gastos para gerar a planilha, você deve acessar o menu Editar &gt; Finanças &gt; Gerenciar Finanças;
+Para anotar seus valores recebidos e gastos para gerar a planilha, você deve acessar o menu Finanças -&gt; Gerenciar Finanças;
 
 IMPORTANTE: Antes de fazer qualquer adição, exclua a primeira linha de Exemplo. Será necessário para que as futuras adições sejam efetuadas com sucesso.
 Caso se esqueça, o controle irá lhe orientar quando tentar adicionar o primeiro elemento. Siga as instruções.
@@ -143,32 +144,40 @@ Caso você digite um número como "100", ele será tratado acrescentando a casa 
 
 Assim que preencher os campos, basta clicar em "Adicionar", e seu valor será adicionado com sucesso.
 
----  Adicionando limites para receber as notificações dadas pela função "Analisar Finanças" ---
+--- Definindo porcentagem do salário para auxiliar no feedback dado pela função "Analisar Finanças" ---
 
 Considerando que você já tenha preenchido sua tabela com suas rendas e seus gastos, pode fechar a janela de Gerenciar Finanças, pelo botão Fechar;
 
-Vá até o menu Editar &gt; Alterar Limites;
+Vá até o menu Finança -&gt; Definir Controle;
 
-Nesta tela, você pode optar por deixar ambos os limites desativados, ou optar por selecionar um ou os dois limites;
+Nesta tela, você utilizará a barra para definir a porcentagem da sua renda que deseja economizar naquela amostra financeira;
 
-Marcando a caixinha de algum limite, a respectiva caixa de texto será ativada, e então você poderá digitar o valor que deseja adicionar como limite;
+A porcentagem atual será exposta em uma linha logo abaixo da barra;
 
-Assim como no preenchimento da tabela de rendas e gastos, o formato do preenchimento deste valor deverá ser numérico, com separação por vírgulas nas casas decimais;
-
-Os valores que forem digitados sem a casa decimal, terão a mesma acrescentada zerada.
+Arrastando a barra, a porcentagem será alterada de 1 em 1, sendo que inicia em 0 e termina em 100(%). Clicando em algum ponto da barra, ou utilizando as setas do teclado, a porcentagem alterará de 5 em 5;
 
 Por fim, basta clicar em "Aplicar", e sua alteração estará concluída.
 
 ---  Salvando seu arquivo no formato .CSV ---
 
-Para salvar sua tabela de rendas e gastos, basta acessar o menu Arquivo &gt; Exportar em CSV;
+Para salvar sua tabela de rendas e gastos, basta acessar o menu Arquivo -&gt; Exportar em CSV;
 
 Neste momento, será aberta uma tela para que você selecione o local para salvamento do seu arquivo;
 
 Basta selecionar o local, definir o nome que deseja que o arquivo seja salvo, e então clicar em "OK".
 
 
-Agradecemos o uso do aplicativo, e esperamos que seja de ajuda em seu controle financeiro do dia a dia.</value>
+--- Importando seu arquivo no formato .CSV ---
+
+Essa funcionalidade é muito semelhante à de exportar. Basta ir ao menu Arquivo -&gt; Importar CSV;
+
+Em seguida, será aberta uma tela para que você navegue em seus arquivos e selecione arquivos no formato .csv;
+
+Vale lembrar que este aplicativo utiliza apenas o formato .csv. Tentar utilizar outros formatos poderá causar um erro.
+
+---------------------------------------------------------------------------------------
+Agradecemos o uso do aplicativo, e esperamos que seja de ajuda em seu controle financeiro do dia a dia.
+---------------------------------------------------------------------------------------</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

@@ -99,7 +99,7 @@
             // 
             this.alterarLimitesToolStripMenuItem.Name = "alterarLimitesToolStripMenuItem";
             this.alterarLimitesToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.alterarLimitesToolStripMenuItem.Text = "Alterar Limites";
+            this.alterarLimitesToolStripMenuItem.Text = "Definir Controle";
             this.alterarLimitesToolStripMenuItem.Click += new System.EventHandler(this.alterarLimitesToolStripMenuItem_Click);
             // 
             // gerenciarFinançasToolStripMenuItem
@@ -193,7 +193,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.BackgroundImage = global::ControleFinanceiroIHC.Properties.Resources._1486564172_finance_loan_money_81492;
+            this.BackgroundImage = global::ControleFinanceiroIHC.Properties.Resources.CharrART_2_with_collors;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(895, 444);
             this.Controls.Add(this.pictureBox1);

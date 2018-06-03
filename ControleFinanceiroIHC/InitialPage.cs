@@ -50,7 +50,8 @@ namespace ControleFinanceiroIHC
         private void exportarCSVToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
-            string format = "CSV file (*.csv)|*.csv| All Files (*.*)|*.*";
+            string format = "Arquivos CSV (*.csv)|*.csv";
+            saveFileDialog1.Title = "Exportar em CSV";
             saveFileDialog1.Filter = format;
             StreamWriter streamWriter = null;
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
@@ -100,9 +101,10 @@ namespace ControleFinanceiroIHC
 
         private void gerenciarFinançasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            double maxCost = manageWindow.MaxCost;
-            double minProfit = manageWindow.MinProfit;
-            ManageFinances upValues = new ManageFinances(this.list, ref maxCost, ref minProfit);
+            //double maxCost = manageWindow.MaxCost;
+            //double minProfit = manageWindow.MinProfit;
+            int percentage = manageWindow.percentage;
+            ManageFinances upValues = new ManageFinances(this.list, percentage);
             upValues.Show();
         }
     }

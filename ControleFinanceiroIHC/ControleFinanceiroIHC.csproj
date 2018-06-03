@@ -140,10 +140,10 @@
     <None Include="Resources\coins_13367.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\1486564172-finance-loan-money_81492.png" />
+    <None Include="Resources\favicon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\favicon.ico" />
+    <None Include="Resources\CharrART_2_with_collors.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
