@@ -1,6 +1,9 @@
 # Become a Rich - Controle Financeiro
 
 Este foi um trabalho desenvolvido na linguagem C#, com objetivo de aprendizado em um trabalho da disciplina de Interação Humano-Computador. Serviu como objeto para modelagem de interações e tarefas, bem como intervenções e avaliações posteriores.
+Segue abaixo uma imagem da tela inicial:
+
+![alt text](https://raw.githubusercontent.com/LeonardoWillian/ControleFinanceiroIHC/master/homepage.PNG "Tela inicial do programa")
 
 
 **Suas funcionalidades são:**
