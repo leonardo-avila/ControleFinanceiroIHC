@@ -1,4 +1,4 @@
-# ControleFinanceiro
+# Become a Rich - Controle Financeiro
 
 Este foi um trabalho desenvolvido na linguagem C#, com objetivo de aprendizado em um trabalho da disciplina de Interação Humano-Computador. Serviu como objeto para modelagem de interações e tarefas, bem como intervenções e avaliações posteriores.
 
